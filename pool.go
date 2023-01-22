@@ -7,7 +7,7 @@ import (
 
 const (
 	SmallBufSize = 1 << 16
-	MaxBufSize   = 1 << 32
+	MaxBufSize   = 1<<32 - 1
 )
 
 var (
